@@ -2,18 +2,18 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Run in Development Mode",
+			"name": "Run dev",
 			"type": "node",
 			"request": "launch",
-			"runtimeExecutable": "npm",
+			"runtimeExecutable": "pnpm",
 			"runtimeArgs": ["run", "dev"],
 			"console": "integratedTerminal"
 		},
 		{
-			"name": "Run in Production Mode",
+			"name": "Run start",
 			"type": "node",
 			"request": "launch",
-			"runtimeExecutable": "npm",
+			"runtimeExecutable": "pnpm",
 			"runtimeArgs": ["run", "start"],
 			"console": "integratedTerminal",
 			"preLaunchTask": "npm: build"
